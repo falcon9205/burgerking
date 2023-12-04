@@ -4,7 +4,6 @@ import login from './login/page'
 import Link from 'next/link'
 import Image from 'next/image'
 import './globals.css';
-import AutoCarousel from './corousel/page'
 
 const page = () => {
   
