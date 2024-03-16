@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Router from 'next/router'
+import Header from "@/app/Components/Header"
 const product = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [pin,setpin] = useState();
@@ -28,8 +29,9 @@ const product = () => {
   }
   
   return (
-    <div>
+    
        <>
+       <Header/>
         <section className="text-gray-600 body-font overflow-hidden">
   <div className="container px-5 py-24 mx-auto">
     <div className="lg:w-4/5 mx-auto flex flex-wrap">
@@ -44,7 +46,7 @@ const product = () => {
          
         </div>
         <div className="flex">
-          <span className="title-font font-medium text-2xl text-gray-900">₹ 2200.00</span>
+          <span className="title-font font-medium text-2xl text-gray-900">₹ 250.00</span>
           <button className="flex ml-auto text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded">Add To Cart</button>
         </div>
         <div className='flex mt-5'>
@@ -67,7 +69,7 @@ const product = () => {
   </div>
 </section>
         </>
-    </div>
+    
   )
 }
 

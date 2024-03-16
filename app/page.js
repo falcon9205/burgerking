@@ -33,10 +33,7 @@ const page = () => {
       </div>
    </div>
 
-     {/* second div corousel */}
-   <div className='md:h-full md:w-full h-full bg-orange-500 '>
-      
-</div>
+  
    </>
   )
 }
